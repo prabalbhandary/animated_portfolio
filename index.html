@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    />
+    <link rel="shortcut icon" href="img/logo.webp" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/logo.webp" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"> <span>P</span>rabal </a>
+      <ul class="navbar">
+        <li>
+          <a href="#" class="active" onclick="changeActive(this)">Home</a>
+        </li>
+        <li>
+          <a href="#" onclick="changeActive(this)">About</a>
+        </li>
+        <li>
+          <a href="#" onclick="changeActive(this)">Services</a>
+        </li>
+        <li>
+          <a href="#" onclick="changeActive(this)">Portfolio</a>
+        </li>
+        <li>
+          <a href="#" onclick="changeActive(this)">Blogs</a>
+        </li>
+        <li>
+          <a href="#" onclick="changeActive(this)">Contact</a>
+        </li>
+      </ul>
+      <div class="menu-btn">
+        <span>INTRO</span>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+    <section class="home">
+      <div class="home-text">
+        <span>Frontend Developer</span>
+        <h1>Prabal Bhandary</h1>
+        <p>
+          I am a frontend developer. I know HTML, CSS, JS, React JS & Bootstrap
+        </p>
+        <div class="main-btn">
+          <a href="#" class="btn">Download CV</a>
+          <a href="#" class="btn two">Hire Me</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="img/main.png" alt="" />
+      </div>
+    </section>
+    <div class="share">
+        <p>Check out my:</p>
+        <div class="social">
+            <a href="#">
+                <img src="img/fb.png" alt="Facebook">
+            </a>
+            <a href="#">
+                <img src="img/t.png" alt="Twitter">
+            </a>
+            <a href="#">
+                <img src="img/l.png" alt="Linkedln">
+            </a>
+            <a href="#">
+                <img src="img/s.png" alt="Skype">
+            </a>
+            <a href="#">
+                <img src="img/i.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="logic/index.js"></script>
+  </body>
+</html>
